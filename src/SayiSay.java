@@ -1,5 +1,5 @@
 
-public class sayisay {
+public class SayiSay {
 
 	/**
 	 * @param args
