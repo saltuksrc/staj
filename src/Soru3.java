@@ -15,7 +15,7 @@ public class Soru3 {
 		int uzunluk = scan.nextInt();
 		int boy=175;
 		
-			if(boy>=uzunluk){
+			if(boy<=uzunluk){
 
 				System.out.println("Uzun Boylusunuz");
 				
