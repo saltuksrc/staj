@@ -10,20 +10,28 @@ public class Soru5 {
 		// Ekrandan okunan 3 karakter verinin (String) en büyüðünü bularak ekrana yazdýran bilgisayar programýný
 		//Java programlama dilinde yazýnýz. 
 
-		String[] yazi= new String[3];
+		String[] veriler= new String[3];
 		Scanner scan = new Scanner(System.in);
 		System.out.println("3 adet veri giriniz");
 		
-		for(int i = 0; i<yazi.length ; i++){
-			
+		for(int i = 0; i<veriler.length; i++){
 			System.out.print(i+1+".veri= ");
-			yazi[i] = scan.next();
+			veriler[i] = scan.next();
 			
-		}
-		for(int j=0 ; j<yazi.length ; j++){
-			
+					
 		}
 		
+		
+		int index = 0;
+		for (int j = 1; j < veriler.length; j++) {
+			if (veriler[index].compareTo(veriler[j]) < 0) {
+				index = j;
+			}
+		}
+		System.out.println("index=" + index + " yazi=" + veriler[index]);
+	
+		
+			
 		
 		
 		
