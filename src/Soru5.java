@@ -22,7 +22,7 @@ public class Soru5 {
 		}
 		int index = 0;
 		for (int j = 1; j < yazi.length; j++) {
-			if (yazi[index].compareTo(yazi[j]) < 0) {
+			if (yazi[index].length() < yazi[j].length()) {
 				index = j;
 			}
 		}
