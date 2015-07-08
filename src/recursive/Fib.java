@@ -141,7 +141,7 @@ public class Fib {
 		fi1(tt);
 		System.out.println("tt=" + tt);
 
-		List<String> isimler = new ArrayList<>();
+		List<String> isimler = new ArrayList<String>();
 		isimler.add("Haydar");
 		isimler.add("Mustafa");
 

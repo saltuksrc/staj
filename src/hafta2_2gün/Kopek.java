@@ -6,6 +6,7 @@ public class Kopek implements Hayvan {
 public Kopek(){
 	
 }
+private int yas=1;
 
 	public String sesCýkar() {
 		// TODO Auto-generated method stub
@@ -19,7 +20,11 @@ public Kopek(){
 
 	public int yasSoyle() {
 		// TODO Auto-generated method stub
-		return 22;
+		return this.yas;
+	}
+	
+	public void setYas(int yas){
+		this.yas= yas;
 	}
 
 }
