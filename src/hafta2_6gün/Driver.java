@@ -15,11 +15,11 @@ public class Driver {
 
 		Bilgisayar pc2 = new Bilgisayar();
 
-		pc1.islemci = "İntel";
-		pc1.marka = "DELL";
-		pc1.ram = 8;
+		pc2.islemci = "İntel";
+		pc2.marka = "DELL";
+		pc2.ram = 8;
 
-		List<Bilgisayar> bilgisayarListesi = new ArrayList<Bilgisayar>();
+		List<Bilgisayar> bilgisayarListesi = new ArrayList<>();
 		bilgisayarListesi.add(pc1);
 		bilgisayarListesi.add(pc2);
 
