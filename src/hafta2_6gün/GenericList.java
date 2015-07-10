@@ -1,4 +1,4 @@
-package hafta2_6gün;
+package hafta2_6gÃ¼n;
 
 import java.awt.List;
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ public class GenericList {
 		markalar.add("Yamaha");
 
 		int markaSayisi = markalar.size();
-		String elemanlar = "Dizinin Elemanlarý;\n";
+		String elemanlar = "Dizinin Elemanlarï¿½;\n";
 
 		for (int i = 0; i < markaSayisi; i++) {
 

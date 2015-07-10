@@ -1,4 +1,4 @@
-package hafta2_6gün;
+package hafta2_6gÃ¼n;
 
 public class Bilgisayar {
 

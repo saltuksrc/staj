@@ -1,4 +1,4 @@
-package hafta2_6gün;
+package hafta2_6gÃ¼n;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,13 +9,13 @@ public class Driver {
 
 		Bilgisayar pc1 = new Bilgisayar();
 
-		pc1.islemci = "İntel";
+		pc1.islemci = "Ä°ntel";
 		pc1.marka = "Casper";
 		pc1.ram = 4;
 
 		Bilgisayar pc2 = new Bilgisayar();
 
-		pc1.islemci = "İntel";
+		pc1.islemci = "Ä°ntel";
 		pc1.marka = "DELL";
 		pc1.ram = 8;
 
@@ -23,9 +23,9 @@ public class Driver {
 		bilgisayarListesi.add(pc1);
 		bilgisayarListesi.add(pc2);
 
-		int alınanRam = bilgisayarListesi.get(1).ram;
+		int alÄ±nanRam = bilgisayarListesi.get(1).ram;
 
-		System.out.println("2.Bilgisayarın ram miktarı= "+alınanRam);
+		System.out.println("2.BilgisayarÄ±n ram miktarÄ±= "+alÄ±nanRam);
 
 	}
 }
